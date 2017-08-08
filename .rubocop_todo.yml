@@ -13,18 +13,6 @@ Rails/TimeZone:
   Exclude:
     - 'rubocop-template.gemspec'
 
-# Offense count: 5
-# Cop supports --auto-correct.
-# Configuration parameters: EnforcedStyle, SupportedStyles.
-# SupportedStyles: when_needed, always, never
-Style/FrozenStringLiteralComment:
-  Exclude:
-    - 'Gemfile'
-    - 'Rakefile'
-    - 'lib/rubocop-template.rb'
-    - 'lib/rubocop-template/version.rb'
-    - 'rubocop-template.gemspec'
-
 # Offense count: 1
 # Cop supports --auto-correct.
 # Configuration parameters: EnforcedStyle, SupportedStyles, ConsistentQuotesInMultiline.
