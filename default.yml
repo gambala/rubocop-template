@@ -19,6 +19,10 @@ Lint/EndAlignment:
 Metrics/LineLength:
   Enabled: false
   Max: 100
+Naming/FileName:
+  Description: Use snake_case for source file names.
+  StyleGuide: https://github.com/bbatsov/ruby-style-guide#snake-case-files
+  Enabled: false
 Rails:
   Enabled: true
 Style/Alias:
@@ -40,10 +44,6 @@ Style/CollectionMethods:
     find_all: select
     reduce: inject
 Style/Documentation:
-  Enabled: false
-Style/FileName:
-  Description: Use snake_case for source file names.
-  StyleGuide: https://github.com/bbatsov/ruby-style-guide#snake-case-files
   Enabled: false
 Style/PercentLiteralDelimiters:
   PreferredDelimiters:
