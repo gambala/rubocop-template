@@ -5,17 +5,17 @@ AllCops:
     - 'node_modules/**/*'
     - 'vendor/**/*'
   TargetRubyVersion: 2.4
+Layout/DefEndAlignment:
+  AutoCorrect: true
+Layout/EndAlignment:
+  AutoCorrect: true
+  EnforcedStyleAlignWith: keyword
 Layout/IndentationConsistency:
   EnforcedStyle: normal
 Lint/AssignmentInCondition:
   Enabled: false
 Lint/Debugger:
   Enabled: true
-Lint/DefEndAlignment:
-  AutoCorrect: true
-Lint/EndAlignment:
-  AutoCorrect: true
-  EnforcedStyleAlignWith: keyword
 Metrics/LineLength:
   Enabled: false
   Max: 100
