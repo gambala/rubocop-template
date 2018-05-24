@@ -3,6 +3,7 @@
 .rspec_status
 .yardo
 _yardoc
+rubocop-template-*.gem
 
 /coverage/
 /doc/
