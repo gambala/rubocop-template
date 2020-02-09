@@ -17,15 +17,15 @@ Layout/EndAlignment:
 Layout/IndentationConsistency:
   EnforcedStyle: normal
 
+Layout/LineLength:
+  Enabled: false
+  Max: 100
+
 Lint/AssignmentInCondition:
   Enabled: false
 
 Lint/Debugger:
   Enabled: true
-
-Metrics/LineLength:
-  Enabled: false
-  Max: 100
 
 Naming/FileName:
   Description: Use snake_case for source file names.
