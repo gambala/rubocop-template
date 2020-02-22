@@ -17,10 +17,6 @@ Layout/EndAlignment:
 Layout/IndentationConsistency:
   EnforcedStyle: normal
 
-Layout/LineLength:
-  Enabled: false
-  Max: 100
-
 Lint/AssignmentInCondition:
   Enabled: false
 
