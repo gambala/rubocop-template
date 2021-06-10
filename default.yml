@@ -5,7 +5,6 @@ AllCops:
     - 'node_modules/**/*'
     - 'server/**/*'
     - 'vendor/**/*'
-  TargetRubyVersion: 2.4
 
 Layout/DefEndAlignment:
   AutoCorrect: true
