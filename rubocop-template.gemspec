@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.date = Time.now.strftime('%Y-%m-%d')
   s.require_paths = ['lib']
   s.files = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
-  s.add_dependency 'rubocop', '~> 0.49'
+  s.add_dependency 'rubocop', '>= 0.49'
   s.add_development_dependency 'bundler', '~> 1.15'
   s.add_development_dependency 'rake', '~> 10.0'
 end
